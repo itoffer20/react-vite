@@ -5,8 +5,8 @@ import viteLogo from './assets/vite.svg'
 import './App.css'
 
 function App() {
-  let firstName = 'John';
-  let lastName = 'Doe';
+  let firstName = 'Kul';
+  let lastName = 'Sharma';
   const [count, setCount] = useState(0)
 
   return (
