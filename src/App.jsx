@@ -1,26 +1,16 @@
 import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
 import './App.css'
+import List from './List.jsx'
 
 function App() {
-  let firstName = 'Kul';
-  let lastName = 'Sharma';
-  const [count, setCount] = useState(0)
+  let name = 'Kul Raj Sharma';
 
   return (
     <>
-      
-    <h1>To do list for {firstName} </h1> 
-      <ul>
-        <li>Learn React </li>
-        <li>Learn Vite</li>
-        <li>Learn React Router</li>
-      </ul>
+    <h1>To do list for {name} </h1> 
+    <List />
     </>
   )
 }
-
 
 export default App
